@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from '../containers/Home';
-import Checkout from '../containers/Checkout';
+import Home from '../pages/Home';
+import Checkout from '../pages/Checkout';
 import Layout from '../components/Layout';
-import NotFound from '../containers/NotFound';
+import NotFound from '../pages/NotFound';
 
 const App = () => (
   <BrowserRouter>
