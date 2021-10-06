@@ -10,7 +10,6 @@ const Header = props => (
         Challenge
       </Link>
       <p
-        style={{fontSize: 12, textAlign: 'center'}}
       >
         <Link to="/teoric">
           Teoric
