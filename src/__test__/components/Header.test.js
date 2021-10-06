@@ -20,7 +20,7 @@ describe('<Header />', () => {
                 <Header />
             </ProviderMock>,
         )
-        expect(header.find('.Header-title').text()).toEqual("Platzi Store")
+        expect(header.find('.Header-title').text()).toEqual("Challenge")
     })
 })
 
