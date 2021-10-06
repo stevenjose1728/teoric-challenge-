@@ -9,7 +9,16 @@ const Header = props => (
       <Link to="/">
         Challenge
       </Link>
+      <p
+        style={{fontSize: 12, textAlign: 'center'}}
+      >
+        <Link to="/teoric">
+          Teoric
+        </Link>
+      </p>
     </h1>
+    <h4 className="Header-title">
+    </h4>
     <div className="Header-checkout">
       <Link to="/checkout">
         <i className="fas fa-shopping-basket" />
